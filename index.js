@@ -5,6 +5,6 @@ app.get('/', (req, res, next) => {
   res.send('Good job!');
 });
 
-app.listen(1337, () => {
+app.listen(80, () => {
   console.log('app listening');
 });
